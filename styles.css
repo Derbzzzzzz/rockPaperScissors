@@ -1,0 +1,60 @@
+.body {
+    background-color: rgb(186, 183, 183);
+    flex-direction: row;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+}
+
+.score{
+    margin-top: 50px;
+    font-size: 150px;
+}
+
+.container{
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.container, .results, .winner, .score{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.rock, .paper, .scissors{
+    transform: scale(2);
+    border-radius: 10px;
+    opacity:0.75;
+}
+
+.rock:hover, .paper:hover, .scissors:hover{
+    background:#fff;
+    border-radius: 30px;
+    opacity: 1;
+  }
+
+
+.restart{
+    padding: 50px;
+    font-size: large;
+    font-weight: 400;
+    border-radius: 20px;
+}
+
+.buttonContainer{
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    color: black;
+}
+
+.restart:hover{
+    background:#fff;
+    border-radius: 30px;
+    opacity: 1;
+}
